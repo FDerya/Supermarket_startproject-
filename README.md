@@ -1,5 +1,4 @@
-# Create the README.md content based on the project's structure and typical Java Maven setup
-readme_content = """# Supermarket Start Project
+# Supermarket Start Project
 
 The Supermarket Start Project is a Java application designed to model and simulate basic supermarket operations. 
 It includes functionality for handling products, customers, and supermarket data.
@@ -25,3 +24,20 @@ It includes functionality for handling products, customers, and supermarket data
 1. Navigate to the project root directory:
    ```bash
    cd Supermarket_startproject--main
+   ```
+
+2. Build the project using Maven:
+   ```bash
+   mvn clean install
+   ```
+
+3. Run the application:
+   ```bash
+   mvn exec:java -Dexec.mainClass="main.SupermarketLauncher"
+   ```
+
+## Running Unit Tests
+To execute unit tests, run:
+```bash
+mvn test
+```
